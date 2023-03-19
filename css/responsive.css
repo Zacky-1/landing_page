@@ -1,8 +1,10 @@
 @media(max-width: 1200px){
+	.logo img {max-width: 250px;}
 	.container{max-width: 1140px;}
 }
 
 @media(max-width: 1199px){
+	.logo.img {max-width: 150px;}
 	.container{max-width: 960px;}
 	.ptb-100 {padding-top: 80px; padding-bottom: 80px;}
 	.pb-65 {padding-bottom: 50px;}
@@ -40,6 +42,7 @@
 @media(min-width: 992px){
 	/*----- Menu Hover -----*/
 	.menu > ul > li:hover > a:before {width: 100%;}
+	.logo img{width: 120px;}
 	.menu ul li:hover.mega-menu:before{transform: rotate(180deg);}
 	.menu ul li:hover > ul {top: 48px; visibility: visible; opacity: 1;}
 	.menu ul li:hover > ul ul {top: 31px; visibility: hidden; opacity: 0;}
@@ -60,6 +63,7 @@
 	/*----- Mega Menu End-----*/
 }
 @media(max-width: 991px){
+	.logo img{width: 120px;}
 	.container{max-width: 720px;}
 	.ptb-100 {padding-top: 60px; padding-bottom: 60px;}
 	.pb-65 {padding-bottom: 35px;}
@@ -153,6 +157,7 @@
 }
 
 @media(max-width: 767px){
+	.logo img{width: 90px;}
 	.btn {padding: 6px 15px;}
 	.ptb-100 {padding-top: 40px; padding-bottom: 40px;}
 	.pt-100 {padding-top: 40px;}
@@ -256,6 +261,7 @@
 
 @media(max-width: 480px){
 	/*----- Token Sale Page -----*/
+	.logo img{width: 90px;}
 	.token-sale-counter .coins-counter-loop li {padding: 0px 6px;}
 	.token-sale-counter .coins-counter-loop li span {font-size: 20px; line-height: 20px;}
 	.token-sale-counter .coins-counter-loop li .coin-day {font-size: 14px; padding-top: 3px;}
@@ -266,6 +272,7 @@
 }
 
 @media(max-width: 374px){
+	.logo img{width: 50px;}
 	/*----- Home Page -----*/
 	.listtopie-svg {width: 280px; height: 280px;}
 	.token-graph-right{height: 300px;}
