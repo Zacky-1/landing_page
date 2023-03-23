@@ -23,11 +23,13 @@ a.active {color: #b626f8; }
 .heading-title{color: #000000;}
 .heading-des{color: #000000;}
 .heading-title-2 span, .sub-heading {
-	background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(136,26,129,1) 100%);
+	background: linear-gradient(90deg, rgb(12, 12, 225) 0%, rgb(255, 0, 174) 100%);
 	-webkit-background-clip: text;
 	color:transparent;
+	font-size: 25px;
 }
-.work-process-title{color: #000000;}
+.work-process-title{color: #000000;font-size: 40px;}
+.work-box .sub-heading{font-size: 25px;}
 .work-des{color: #000000;}
 .sub-page-banner{background-color: #1b1625;}
 .skyblue{background-color: #ccc8fd;}
