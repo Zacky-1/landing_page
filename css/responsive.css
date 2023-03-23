@@ -19,6 +19,7 @@
 	.signin {margin-left: 20px;}
 	.signin .btn {padding: 9px 20px;}
 	.home-banner {padding: 190px 0px 110px 0px;}
+	.sub-heading{font-size: 25px;}
 
 	/*----- Home Page Tow -----*/
 	.coins-counter-loop li{padding: 0px 15px;}
@@ -166,6 +167,8 @@
 	.section-heading {display: block;}
 	.heading-title-2 {font-size: 30px; padding-bottom: 10px;}
 	.sub-heading-2 {font-size: 18px;}
+	.sub-heading{font-size: 15px;}
+	.work-box .sub-heading{font-size: 15px;}
 
 	/*----- Home Page -----*/
 	.logo{max-width: 120px;}
